@@ -1,6 +1,6 @@
-# A high leval overview of trusty's code design
+# A high level overview of trusty's code design
 
-At its highest leval, trusty is made out of a trait and two structures, `FrontEnd`, `BackEnd`, and `Editor`
+At its highest level, trusty is made out of a trait and two structures, `FrontEnd`, `BackEnd`, and `Editor`
 
 ## FrontEnd
 The `FrontEnd` is responsible for receiving events from the user, converting them into a member of the `Event` enum, and dispatching them to the `Editor`. It is also responsible for displaying the UI of the editor and prompting the user when necessary. This is a trait that can be implemented by several structures to allow for multiple front ends.
