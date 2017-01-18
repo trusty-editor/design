@@ -1,4 +1,4 @@
 # design
-![Trusty logo](trusty.svg)
+![Trusty logo](trusty.png)
 
 Documents that detail the design of trusty
